@@ -4,7 +4,7 @@
 
 int upper() {
     char ch;
-    printf("Enter a character: ");
+    printf("Ingrese un caracter: ");
     scanf(" %c ", &ch);
     if (ch >= 'A' && ch <= 'Z') {
         printf("%c es una letra mayuscula.\n", ch);
